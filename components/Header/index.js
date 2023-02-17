@@ -54,7 +54,10 @@ const Header = () => {
     },
   ];
   return (
-    <header className="h-16 fixed items-center bg-white flex justify-around shadow-md w-full">
+    <header
+      style={{ zIndex: "9999" }}
+      className="h-16 fixed items-center bg-white flex justify-around shadow-md w-full"
+    >
       <div>
         <Link href="/">
           <Image

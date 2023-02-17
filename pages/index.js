@@ -1,6 +1,6 @@
 import React, { useContext, useState } from "react";
 import Auth from "../components/Auth";
-import Feed from "../components/Feed.js";
+import Feed from "../components/Feed.js/index.js";
 import { GlobalContext } from "../state/context/GlobalContext";
 const HomePage = () => {
   const { isAuthenticated, isOnboarded } = useContext(GlobalContext);
